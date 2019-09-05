@@ -1,3 +1,4 @@
+
 <template>
   <div class="home">
      <h1>包裹入库</h1>
@@ -25,6 +26,7 @@
 
 <script>
 // @ is an alias to /src
+import axios from 'axios'
 
 export default {
   name: 'home',
@@ -32,11 +34,22 @@ export default {
    
   },
 
-  data:{
+  // data(){
+  //    return {
+  //    orderNumber:'',
+  //    reciverName:'',
+  //    reciverTel:'',
+  //    weight:''
+  //           }
+    
+  //  },
+     data:{
+    
      orderNumber:'',
      reciverName:'',
      reciverTel:'',
      weight:''
+
    },
    methods: {
     msg1Call: function() {
