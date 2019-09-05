@@ -1,18 +1,35 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+     <h1>包裹入库</h1>
+       <div>
+       <span>运单号：</span><input type="text">
+    </div>     
+    <h1></h1>
+      <div>
+       <span>收件人：</span><input type="text">
+    </div> 
+     <h1></h1>
+      <div>
+       <span>电话：</span><input type="text">
+    </div> 
+     <h1></h1>
+      <div>
+       <span>重量：</span><input type="text">
+    </div>
+    <h1></h1>
+     <div>
+       <button>提交</button>
+    </div>  
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    
   }
 }
 </script>
